@@ -4,7 +4,7 @@
 	.asciz	"Food Fight"
 	.align	32
 	.long	0	//let ASSFIX set this.
-	.ascii	"FRN0"
+	.ascii	"FUDw"
 	.byte	0	//reserved
 	#include "../crt0.s"
 	TARGET_A3X = 1
