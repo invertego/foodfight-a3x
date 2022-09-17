@@ -22245,7 +22245,7 @@ FFVBlankHandler:
 
 .if TARGET_A3X
 
-	.org 0x10000
+	.org 0x20000
 
 	.global FFEntry
 	.global VBlankHandler
