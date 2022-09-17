@@ -302,7 +302,6 @@ int main(void)
 	// Register our interrupt handlers
 	interface->VBlank = VBlankHandler;
 	interface->HBlank = HBlankHandler;
-	inton();
 
 	// Start the game!
 	FFEntry();
